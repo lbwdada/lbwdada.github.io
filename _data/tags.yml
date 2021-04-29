@@ -1,11 +1,11 @@
-tag1:
+java:
   name: Java
 
-tag2:
+mysql:
   name: MySQL学习
 
-tag3:
+linux:
   name: Linux
 
-tag4:
+others:
   name: 其他
