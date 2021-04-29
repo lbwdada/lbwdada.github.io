@@ -1,11 +1,11 @@
-java:
+Java:
   name: Java
 
-mysql:
-  name: MySQL学习
+MySQL:
+  name: MySQL
 
-linux:
+Linux:
   name: Linux
 
-others:
+其他:
   name: 其他
