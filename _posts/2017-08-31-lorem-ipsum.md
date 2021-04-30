@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Lorem Ipsum"
-tags: MySQL Linux 其他
+tags: linux others
 ---
 
 ## Lorem Ipsum

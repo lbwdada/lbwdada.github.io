@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Markdown Test Page"
-tags: Java MySQL Linux 其他
+tags: java mysql linux others
 ---
 
 ## Source: [Markdown Test Page](https://github.com/fullpipe/markdown-test-page)

@@ -1,11 +1,11 @@
-Java:
-  name: Java
+java:
+  name: java
 
-MySQL:
-  name: MySQL
+mysql:
+  name: mysql
 
-Linux:
-  name: Linux
+linux:
+  name: linux
 
-其他:
-  name: 其他
+others:
+  name: others
