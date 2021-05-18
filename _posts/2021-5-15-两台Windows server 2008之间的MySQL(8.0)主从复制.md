@@ -160,7 +160,7 @@ change master to master_host='192.168.159.134',master_port=3306,master_user='cop
 
 发现对应，排除日志文件配置错误。
 
-##### 2.在从机信息中发现Last_IO_Error中提示主机和从机的server_id重复了。（从前面的配置文件中可以看到我主机server-id配置的是1，从机的server-id配置的是2,并不相同。为什么两个server_id都是1呢？配置没有生效吗？暂时没有搞明白。）
+##### 2.在从机信息中发现Last_IO_Error中提示主机和从机的server_id重复了。（从前面的配置文件中可以看到我主机server-id配置的是1，从机的server-id配置的是2,并不相同。为什么两个server_id都是1呢？配置没有生效吗？暂时没有搞明白。）(2021-5-18 注：原因知道了，是因为Windows我忘开显示文件扩展名了，所以我一直在修改的是一个txt！！！kao， 大意了)
 
 ![](https://cdn.jsdelivr.net/gh/lbwdada/Mybolg_img/20210515145359.png)
 
