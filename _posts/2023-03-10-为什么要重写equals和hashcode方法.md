@@ -8,6 +8,7 @@ tags:
 
 
 ### 为什么要重写equals和hashcode方法
+<!--more-->
 
 ```java
 import java.util.HashMap;

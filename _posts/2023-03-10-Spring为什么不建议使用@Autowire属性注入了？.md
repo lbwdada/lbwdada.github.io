@@ -10,6 +10,7 @@ tags:
 ###Spring为什么不建议使用@Autowired属性注入了？
 
 > 从spring4.0 开始，官方就不推荐@Autowired的使用在字段上。如果使用了在IDEA上会出现**Field injection is not recommended**的警告。目前，Spring官方推荐的注入方式是构造器注入。
+<!--more-->
 
 #### 1.使用@Autowire会出现的问题（暂时找到一个）
 
