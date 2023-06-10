@@ -70,17 +70,15 @@ System.out.println(userMap.get(user2));
 }}
 ```
 
->   在main方法里面定义了两个对象user1和user2，但是user里面的属性对象是一样的，接着创建一个HashMap叫做userMap，将user1存进去，然后用user2来来取值，取出来的值为null。
+> 在main方法里面定义了两个对象user1和user2，但是user里面的属性对象是一样的，接着创建一个HashMap叫做userMap，将user1存进去，然后用user2来来取值，取出来的值为null。
 >
->   这里的原因很简单，因为没有重写hash和equals方法，当我们用user2来取直的时候，就会用user2的地址值生成一个hash值，因为user1和user2是完全两个对象所以生成的hash肯定是不同的。
+> 这里的原因很简单，因为没有重写hash和equals方法，当我们用user2来取直的时候，就会用user2的地址值生成一个hash值，因为user1和user2是完全两个对象所以生成的hash肯定是不同的。
 
 举个例子，效果如下图所示。
 
 ![](https://cdn.jsdelivr.net/gh/lbwdada/Mybolg_img/2023-03-10/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E9%87%8D%E5%86%99equals%E5%92%8Chashcode%E6%96%B9%E6%B3%95/Snipaste_2023-03-10_19-16-40.png)
 
->   当我们把user1存进去的时候，根据地址值生成的索引是1010，user1就存放在对应的位置，接着我们用user2来取值的时候，根据user2来生成的地址值是3030的索引值所对应的位置，所以就返回为null了。由于user1和user2是完全不同的对象，两份地址值是不一样的，因为没有重写hashCode方法，就会沿用父类Object中的hashCode的方法来生成Hash值，而Object中的hashCode方法生成的hash值是根据对象的地址值直接生成的，所以两个对象的hash就会完全不一样。
-
-
+> 当我们把user1存进去的时候，根据地址值生成的索引是1010，user1就存放在对应的位置，接着我们用user2来取值的时候，根据user2来生成的地址值是3030的索引值所对应的位置，所以就返回为null了。由于user1和user2是完全不同的对象，两份地址值是不一样的，因为没有重写hashCode方法，就会沿用父类Object中的hashCode的方法来生成Hash值，而Object中的hashCode方法生成的hash值是根据对象的地址值直接生成的，所以两个对象的hash就会完全不一样。
 
 **当我们把hashCode方法的注释去点后，但是equals的方法不去掉，也进行测试，返回的结果还是为空，这又是为什么呢？**
 

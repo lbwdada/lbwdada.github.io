@@ -10,8 +10,7 @@ tags:
 
 环境：MySQL8 ， Windows server 2008 r2 ， VMware
 
-
-<!--more-->
+<!-- more -->
 ------
 
  服务器介绍：
