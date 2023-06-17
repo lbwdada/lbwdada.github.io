@@ -13,20 +13,20 @@ Unit 文件按照 Systemd 约定，应该被放置指定的三个系统目录之
 
 [阮一峰](https://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-part-two.html)
 
-##### 文件存放到哪里的问题？
+## 文件存放到哪里的问题？
 
 > 我从Google搜索得到的结果是在Ubuntu系统下，与Debian软件包无关的systemd相关文件(.service)文件等最好是直接就存放在etc/systemd/system 目录下即可。
 
 .service 文件配置的服务常用systemd管理。然而，systemd有系统和用户区分；系统/user/lib/systemd/system/）、用户（/etc/lib/systemd/user/）。一般系统管理员手工创建的单元文件建议存放在/etc/systemd/system/目录下面。
 
-#### 以Clash的开机自启为例子演示
+## 以Clash的开机自启为例子演示
 
 ```shell
 1. sudo touch /etc/systemd/system/clash.service
 2. sudo vim /etc/systemd/system/clash.service
 ```
 
-```
+```config
 [Unit]
 Description=clash daemon
 

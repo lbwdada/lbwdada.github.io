@@ -12,6 +12,8 @@ tags:
 
 <!--  more  -->
 
+## 主机配置
+
 ------
 
  服务器介绍：
@@ -21,8 +23,6 @@ tags:
 从机使用VMware从主机克隆而来（有坑）；
 
 ------
-
-## 主机配置：
 
 ### 1.配置my.ini
 
@@ -152,9 +152,9 @@ change master to master_host='192.168.159.134',master_port=3306,master_user='cop
 
 ![](https://cdn.jsdelivr.net/gh/lbwdada/Mybolg_img/20210515144834.png)
 
-#### 排查问题：
+#### 排查问题
 
-##### 1.首先是查看Master_Log_File有没有和主机对应。
+##### 1.首先是查看Master_Log_File有没有和主机对应
 
 ![](https://cdn.jsdelivr.net/gh/lbwdada/Mybolg_img/20210515145053.png)
 
