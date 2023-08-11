@@ -6,8 +6,11 @@ tags:
 - 学习记录
 ---
 
+在使用HashMap的时候一次突发奇想
 
 <!--  more  -->
+
+## 举例说明
 
 ```java
 import java.util.HashMap;

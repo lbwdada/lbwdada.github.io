@@ -7,6 +7,7 @@ tags:
 ---
 
 刚学完JVM之后对栈上内存和堆内存又有了从新的认识，并对StackOverflow和OutOfMemory这两个错误进行一下溯源。
+
 <!--  more  -->
 
 ## 1 StackOverflow
