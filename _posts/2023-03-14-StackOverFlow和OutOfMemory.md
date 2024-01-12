@@ -1,9 +1,9 @@
 ---
 title: StackOverflow和OutOfMemory
 categories:
-- java
-tags:
 - 学习记录
+tags:
+- Java
 ---
 
 刚学完JVM之后对栈上内存和堆内存又有了从新的认识，并对StackOverflow和OutOfMemory这两个错误进行一下溯源。

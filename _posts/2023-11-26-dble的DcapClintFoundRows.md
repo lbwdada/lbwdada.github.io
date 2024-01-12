@@ -1,11 +1,10 @@
 ---
 title: dble的DcapClintFoundRows
 categories:
-- others
-tags:
 - 工作记录
-- 工具
+tags:
 - 中间件
+- dble
 ---
 
 > 写这篇的原因是遇到一个奇怪的问题：在有些地方做修改的时候如果没有修改任何内容就点击保存的话前端页面会弹出操作失败的对话框。

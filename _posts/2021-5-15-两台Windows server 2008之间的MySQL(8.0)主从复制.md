@@ -1,9 +1,10 @@
 ---
 title: 两台Windows server 2008之间的MySQL(8.0)主从复制
 categories:
-- mysql
-tags:
 - 工作记录
+tags:
+- mysql
+- windows server
 ---
 
 记录下两台Windows server 之间的MySQL如何进行主从复制。

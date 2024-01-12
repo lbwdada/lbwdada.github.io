@@ -1,10 +1,11 @@
 ---
 title: Dbeaver连接TDengine数据库
 categories:
-- others
-tags:
 - 工作记录
-- 工具
+- 开发工具的使用
+tags:
+- TDengine
+- Dbeaver
 ---
 
 使用Dbeaver对TDengine数据库进行查看和数据操作

@@ -1,9 +1,9 @@
 ---
 title: 为什么要重写equals和hashcode方法
 categories:
-- java
-tags:
 - 学习记录
+tags:
+- Java
 ---
 
 在使用HashMap的时候一次突发奇想
